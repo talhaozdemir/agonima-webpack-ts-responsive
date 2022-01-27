@@ -1,0 +1,94 @@
+{
+    "components": [
+        {
+            "name": "AlignToScreen",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "alignTo",
+                    "label": "Align To",
+                    "tooltip": "Property 1",
+                    "defValue": "Center",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "Center",
+                            "Top Left",
+                            "Top Right",
+                            "Bottom Left",
+                            "Bottom Right"
+                        ]
+                    }
+                },
+                {
+                    "name": "paddingX",
+                    "label": "Padding X",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "paddingY",
+                    "label": "Padding Y",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "AlignCanvas",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "alignVer",
+                    "label": "Vertical Alignment",
+                    "tooltip": "",
+                    "defValue": "center",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "top",
+                            "center",
+                            "bottom"
+                        ]
+                    }
+                },
+                {
+                    "name": "alignHor",
+                    "label": "Horizontal Alignment",
+                    "tooltip": "",
+                    "defValue": "center",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "left",
+                            "center",
+                            "right"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "javaScriptInitFieldsInConstructor": true,
+    "exportClass": true,
+    "autoImport": true
+}

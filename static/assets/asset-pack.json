@@ -1,0 +1,38 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/audioOff.png",
+                "type": "image",
+                "key": "audioOff"
+            },
+            {
+                "url": "assets/audioOn.png",
+                "type": "image",
+                "key": "audioOn"
+            },
+            {
+                "url": "assets/bg.png",
+                "type": "image",
+                "key": "bg"
+            },
+            {
+                "url": "assets/canvasIcon.png",
+                "type": "image",
+                "key": "canvasIcon"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

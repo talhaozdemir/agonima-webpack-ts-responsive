@@ -1,0 +1,64 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 50,
+        "snapHeight": 50,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 960,
+        "borderHeight": 540
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ef80af17-b34d-4326-af87-7c49079fa17d",
+            "label": "CanvasRef",
+            "components": [
+                "AlignCanvas"
+            ],
+            "texture": {
+                "key": "canvasIcon"
+            },
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3d3387c0-78c1-415f-ac84-eab089af08d4",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "bg"
+            },
+            "x": 480,
+            "y": 270
+        },
+        {
+            "type": "Image",
+            "id": "02817bb7-e62c-42f7-b615-68371cb29192",
+            "label": "fufuSuperDino",
+            "scope": "PUBLIC",
+            "components": [
+                "PushOnClick"
+            ],
+            "texture": {
+                "key": "FufuSuperDino"
+            },
+            "x": 480,
+            "y": 270
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
