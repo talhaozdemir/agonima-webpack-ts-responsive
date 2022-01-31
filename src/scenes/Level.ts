@@ -24,7 +24,7 @@ export default class Level extends Phaser.Scene {
 		canvasRef.visible = false;
 
 		// bg
-		const bg = this.add.image(480, 270, "bg");
+		const bg = this.add.image(550, 300, "bg");
 
 		// fufuSuperDino
 		const fufuSuperDino = this.add.image(480, 270, "FufuSuperDino");
@@ -57,7 +57,6 @@ export default class Level extends Phaser.Scene {
 		// Reference guide rectangle
 		const safeArea = this.add.rectangle(0, 0, globalThis.screenBaseSize.width, globalThis.screenBaseSize.height, 0xffffff, 0).setOrigin(0).setDepth(1);
 		safeArea.setStrokeStyle(2, 0x1a65ac);
-
 	}
 
 	/* END-USER-CODE */

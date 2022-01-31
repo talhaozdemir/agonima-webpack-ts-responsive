@@ -36,7 +36,7 @@ window.addEventListener('load', function () {
 			mode: Phaser.Scale.RESIZE,
 			parent: 'game',
 			width: SIZE_WIDTH_SCREEN,
-			height: SIZE_HEIGHT_SCREEN
+			height: SIZE_HEIGHT_SCREEN,
 		},
 		dom: {
 			createContainer: true

@@ -2,7 +2,6 @@
     "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
     "sceneType": "SCENE",
     "settings": {
-        "snapEnabled": true,
         "snapWidth": 50,
         "snapHeight": 50,
         "exportClass": true,
@@ -36,8 +35,8 @@
             "texture": {
                 "key": "bg"
             },
-            "x": 480,
-            "y": 270
+            "x": 550,
+            "y": 300
         },
         {
             "type": "Image",

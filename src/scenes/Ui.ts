@@ -56,13 +56,25 @@ export default class Ui extends Phaser.Scene {
 		this.audioIcon.setScale(Math.min(canvasWidth * 0.1 / this.audioIcon.width, canvasHeight * 0.1 / this.audioIcon.height));
 
 
-		// // *** DISABLE 'ALIGNTOSCREEN' COMPONENT ***
+		// // *** DISABLE 'ALIGNTOSCREEN' COMPONENT TO USE CUSTOM RESIZE! ***
+		/**
+		 * AVAILABLE PARAMETERS
+		 * globalThis.gameAreaRightX
+		 * globalThis.gameAreaLeftX
+		 * globalThis.gameAreaTopY
+		 * globalThis.gameAreaBottomY
+		 * globalThis.gameAreaAvailableSpace.left
+		 * globalThis.gameAreaAvailableSpace.right
+		 * globalThis.gameAreaAvailableSpace.top
+		 * globalThis.gameAreaAvailableSpace.bottom
+		 */
+
 		// if (canvasWidth > canvasHeight) {
-		// 	this.audioIcon.x = globalThis.gameAreaLeft.x - globalThis.canvasAvailableSpace.width * 0.5; // center to left space horizontally
-		// 	this.audioIcon.y = globalThis.gameAreaCenter.y; // center to space vertically
+		// 	this.audioIcon.x = globalThis.gameAreaLeftX - globalThis.gameAreaAvailableSpace.left * 0.5;
+		// 	this.audioIcon.y = globalThis.gameAreaCenterY;
 		// } else {
-		// 	this.audioIcon.x = globalThis.gameAreaCenter.x;
-		// 	this.audioIcon.y = globalThis.gameAreaTop.y - globalThis.canvasAvailableSpace.height * 0.5;
+		// 	this.audioIcon.x = globalThis.gameAreaCenterX;
+		// 	this.audioIcon.y = globalThis.gameAreaTopY - globalThis.gameAreaAvailableSpace.top * 0.5;
 		// }
 	}
 

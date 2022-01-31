@@ -51,7 +51,7 @@
             "properties": [
                 {
                     "name": "alignVer",
-                    "label": "Vertical Alignment",
+                    "label": "Portrait Alignment",
                     "tooltip": "",
                     "defValue": "center",
                     "customDefinition": false,
@@ -65,8 +65,58 @@
                     }
                 },
                 {
+                    "name": "gameAreaVer",
+                    "label": "Game Area Scalar",
+                    "tooltip": "Set padding values relative to Game Area Scalar.",
+                    "defValue": 10,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minLeftWidthVer",
+                    "label": "Padding Left",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minRightWidthVer",
+                    "label": "Padding Right",
+                    "tooltip": "Works in portrait mode",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minUpHeightVer",
+                    "label": "Padding Top",
+                    "tooltip": "Works in landscape mode",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minDownHeightVer",
+                    "label": "Padding Bottom",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
                     "name": "alignHor",
-                    "label": "Horizontal Alignment",
+                    "label": "Landscape Alignment",
                     "tooltip": "",
                     "defValue": "center",
                     "customDefinition": false,
@@ -77,6 +127,56 @@
                             "center",
                             "right"
                         ]
+                    }
+                },
+                {
+                    "name": "gameAreaHor",
+                    "label": "Game Area Scalar",
+                    "tooltip": "Set padding values relative to Game Area Scalar.",
+                    "defValue": 10,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minLeftWidthHor",
+                    "label": "Padding Left",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minRightWidthHor",
+                    "label": "Padding Right",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minUpHeightHor",
+                    "label": "Padding Top",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "minDownHeightHor",
+                    "label": "Padding Bottom",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
                     }
                 }
             ]
